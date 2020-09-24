@@ -130,3 +130,20 @@ self.addEventListener('fetch', (evt) => {
 
 
 });
+
+
+// 7.4 Options de notifications grâce aux actions
+// Ecouteur au clic d'un des deux boutons de la notification
+self.addEventListener("notificationclick", evt => {
+    console.log("notificationclick evt", evt);
+    if(evt.action === "accept"){
+        console.log("vous avez accepté");
+    } else if(evt.action === "refuse"){
+        console.log("vous avez refusé");
+    } else{
+        console.log("vous avez cliqué sur la notification (pas sur un bouton)");
+    }
+  
+    // 7.5 Fermer programmatiquement une notification
+    evt.notification.close();
+})
