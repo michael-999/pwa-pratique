@@ -1,0 +1,26 @@
+{
+  "name": "pwa-pratique",
+  "version": "1.0.0",
+  "description": "commentaire",
+  "main": "index.js",
+  "scripts": {
+    "jsonserver": "json-server -p 3001 --watch db.json",
+    "start": "live-server --port=3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michael-999/pwa-pratique.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michael-999/pwa-pratique/issues"
+  },
+  "homepage": "https://github.com/michael-999/pwa-pratique#readme"
+
+
+
+
+}
