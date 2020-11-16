@@ -48,3 +48,11 @@ h2 {
   margin-bottom: 30px;
 
 }
+
+
+/* Home */
+.card {
+  max-width: 400px;
+  width: 100%;
+  margin-bottom: 10px;
+}
